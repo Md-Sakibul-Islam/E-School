@@ -35,5 +35,49 @@ h3{
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
 /* common css end  */
+
+/* header css start  */
+.header-section{
+    padding-top: 33px;
+    background-color: #F0FFF0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 198;
+    height: 60px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{ 
+    display: inline-block;
+}
+.menu ul li a{
+    color: #000000;
+    padding-right: 48px;
+}
+
+.btn {
+    background-color: #21B573;
+    border-radius: 20px;
+    padding: 12px 28px;
+    
+   
+}
+
+.btn a {
+    color: white;
+}
+
+  
+/* header css end  */
