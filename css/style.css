@@ -170,14 +170,16 @@ h3 {
 /* information section css end */
 
 /* courses section start  */
-.section-courses{
+.section-courses {
     padding-bottom: 81px;
 }
-.courses-title{
+
+.courses-title {
     padding-bottom: 62px;
     text-align: center;
     color: #413960;
 }
+
 .courses {
     display: flex;
     gap: 30px;
@@ -189,43 +191,80 @@ h3 {
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
     padding: 24px 20px 30px 20px;
 }
-.course-card a{
+
+.course-card a {
     display: inline-block;
     margin: 20px 0 34px 0;
- color: #FFF;
+    color: #FFF;
 }
 
 .course-card img {
     width: 331px;
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     justify-content: space-between;
 }
-.card-footer i{
- color: #585859;
- padding: 6px 6px 6px 0;
+
+.card-footer i {
+    color: #585859;
+    padding: 6px 6px 6px 0;
 }
+
 /* courses section end */
 
+.testimonial {
+    padding-bottom: 127px;
+}
 
-.testimonial-heading{
+.testimonial-heading {
     color: #000;
     text-align: center;
     padding-bottom: 68px;
 }
-.client-review img{
+
+.client-review img {
     width: 120px;
 }
 
-.client-review{
+.client-review {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 52px;
 }
-.profile-content p{
+
+.profile-content p {
     text-align: justify;
     width: 570px;
 }
+
+
+/* footer section css start  */
+.footer-section {
+    background-color: #282531;
+    padding: 55px 136px 0 142px;
+}
+
+.footer-wraper {
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wraper li{
+    line-height: 30px;
+}
+.message {
+    flex-basis: 400px;
+}
+
+.footer-copy {
+    color: #FFF;
+    padding-top: 76px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+/* footer section css end  */
