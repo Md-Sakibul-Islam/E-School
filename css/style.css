@@ -135,10 +135,11 @@ h3 {
 /* banner css end  */
 
 /* information section css start  */
-.info-section{
+.info-section {
     padding: 45px 0 98px 0;
-   
+
 }
+
 .info-cards {
     display: flex;
     justify-content: space-between;
@@ -157,11 +158,74 @@ h3 {
     height: 85px;
     padding-bottom: 26px;
 }
-.card-title h3{
+
+.card-title h3 {
     color: #413960;
 }
+
 .card-title p {
     color: #585859;
 }
 
 /* information section css end */
+
+/* courses section start  */
+.section-courses{
+    padding-bottom: 81px;
+}
+.courses-title{
+    padding-bottom: 62px;
+    text-align: center;
+    color: #413960;
+}
+.courses {
+    display: flex;
+    gap: 30px;
+}
+
+.course-card {
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+    padding: 24px 20px 30px 20px;
+}
+.course-card a{
+    display: inline-block;
+    margin: 20px 0 34px 0;
+ color: #FFF;
+}
+
+.course-card img {
+    width: 331px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer i{
+ color: #585859;
+ padding: 6px 6px 6px 0;
+}
+/* courses section end */
+
+
+.testimonial-heading{
+    color: #000;
+    text-align: center;
+    padding-bottom: 68px;
+}
+.client-review img{
+    width: 120px;
+}
+
+.client-review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+.profile-content p{
+    text-align: justify;
+    width: 570px;
+}
