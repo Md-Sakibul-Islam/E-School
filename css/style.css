@@ -1,68 +1,81 @@
 /* common css start  */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
-li{
+
+li {
     list-style-type: none;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-size: 48px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
 
-h2{
+h2 {
     font-size: 36px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
 }
+
 /* common css end  */
 
 /* header css start  */
-.header-section{
+.header-section {
     padding-top: 33px;
     background-color: #F0FFF0;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.logo img{
+
+.logo img {
     width: 198;
     height: 60px;
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
 }
-.menu ul li{ 
+
+.menu ul li {
     display: inline-block;
 }
-.menu ul li a{
+
+.menu ul li a {
     color: #000000;
     padding-right: 48px;
 }
@@ -71,45 +84,84 @@ h3{
     background-color: #21B573;
     border-radius: 20px;
     padding: 12px 28px;
-    
-   
+
+
 }
 
 .btn a {
     color: white;
 }
 
-  
+
 /* header css end  */
 
 /* banner css start  */
-.banner-section{
-    background-color:#F0FFF0 ;
+.banner-section {
+    background-color: #F0FFF0;
     padding-top: 90px;
 }
-.banner-wraper{
+
+.banner-wraper {
     display: flex;
 }
-.banner-left .banner-heading{
+
+.banner-left .banner-heading {
     color: #FD511A;
 }
-.banner-left h1{
+
+.banner-left h1 {
     padding-right: 185px;
 }
-.banner-left span{
+
+.banner-left span {
     color: #21B573;
 }
-.banner-left .banner-content{
+
+.banner-left .banner-content {
     color: #6C6B6B;
     padding: 19px 100px 26px 0;
 }
-.banner-left a{
+
+.banner-left a {
     color: white;
     margin-bottom: 60px;
     display: inline-block;
 }
 
-.banner-right img{
+.banner-right img {
     width: 100%;
 }
+
 /* banner css end  */
+
+/* information section css start  */
+.info-section{
+    padding: 45px 0 98px 0;
+   
+}
+.info-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.info-cards .card img {
+    width: 66px;
+    height: 85px;
+    padding-bottom: 26px;
+}
+.card-title h3{
+    color: #413960;
+}
+.card-title p {
+    color: #585859;
+}
+
+/* information section css end */
