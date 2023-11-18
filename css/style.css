@@ -81,3 +81,35 @@ h3{
 
   
 /* header css end  */
+
+/* banner css start  */
+.banner-section{
+    background-color:#F0FFF0 ;
+    padding-top: 90px;
+}
+.banner-wraper{
+    display: flex;
+}
+.banner-left .banner-heading{
+    color: #FD511A;
+}
+.banner-left h1{
+    padding-right: 185px;
+}
+.banner-left span{
+    color: #21B573;
+}
+.banner-left .banner-content{
+    color: #6C6B6B;
+    padding: 19px 100px 26px 0;
+}
+.banner-left a{
+    color: white;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.banner-right img{
+    width: 100%;
+}
+/* banner css end  */
