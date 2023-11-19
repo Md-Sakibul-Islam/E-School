@@ -149,8 +149,13 @@ h3 {
     padding: 50px;
     text-align: center;
     border-radius: 10px;
-    background: #FFF;
+    background: #F8FFFB;
     box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    transition: all 0.4s ease-in-out;
+}
+.card:hover{
+    background-color: #FFF;
+    
 }
 
 .info-cards .card img {
